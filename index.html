@@ -1,0 +1,248 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        body {
+            font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: lightgrey;
+            color: #333;
+        }
+
+        header, footer {
+            background-color: lightseagreen;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        footer {
+            position: relative;
+            font-size: 0.9em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 8px;
+        }
+
+        .icons img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .left-column, .right-column, .middle-column {
+            padding: 20px;
+            
+            border-radius: 8px;
+            margin: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .left-column, .right-column {
+            width: 25%;
+            background-color: white;
+        }
+
+        .middle-column {
+         background-color: lightcyan;
+            width: 50%;
+        }
+
+        img.profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid black;
+            margin-bottom: 10px;
+            float: right;
+        }
+
+        .w-icon {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            z-index: 1000;
+        }
+
+        .w-icon img {
+            width: 50px;
+            height: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .left-column, .right-column, .middle-column {
+                width: 100%;
+            }
+            .icons img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Usman Ali</h1>
+</header>
+
+<div class="container">
+    <div class="left-column">
+        <h2>Professional Skills</h2>
+        <ul>
+            <li>Simple web Development</li>
+            <li>Database</li>
+            <li>Accounting</li>
+            <li>Problem Solver</li>
+            <li>Making new friends</li>
+        </ul>
+    </div>
+
+    <div class="middle-column">
+    	<img src="pic.jpg" alt="Usman Ali" class="profile-pic">
+
+	<h3>Educational History</h3>
+        <table>
+  <tr>
+    <th>Education</th>
+    <th>Institute&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td>Matric</td>
+    <td>Allied School,Wazirabad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td>2016-2018</td>
+  </tr>
+  <tr>
+    <td>Intermediate</td>
+    <td>Punjab Group Of Colleges&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td>2018-2020</td>
+  </tr>
+ 
+  <tr>
+    <td>BS(CS)</td>
+    <td>University Of Sialkot&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td>2020-continue</td>
+</tr>
+</table>
+	<h3>
+		What i did for my country.
+	</h3>
+	<p>
+		Community Engagement 
+
+	</p>
+	<p>
+		Promoting Education
+	</p>
+	<p>
+		Voting and Envolvement in Politics
+	</p>
+	<h3>My Hobbies</h3>
+	<ol type="a">
+		<li>Travelling</li>
+		<li>Visiting to adventures Places</li>
+		<li>Learning new things from environment </li>
+		<li>Playing Games</li>
+		<li>Making new friends</li>
+	</ol>
+
+	<h3>
+		My Life Ambition
+	</h3>
+	<p>
+		A student, my life ambition might be to acquire knowledge and skills that empower me to contribute positively to society. I could aim to excel academically, pursue my passions, and work towards a career that aligns with my interests, all while fostering meaningful relationships and personal growth. Ultimately, my ambition would be to make a difference in the world, whether it's through innovation, creativity, or helping others.And also i want to create an institute where the poor childrens can have education with the funding. The childrens who are used or force to beg on the roads , i want to provide them a sound shleter where they can have education and gain skills. Might be possible one of them should be presenting our country in future. 
+	</p>
+
+<h3>
+	What i want from my Country .
+</h3>
+
+<p>
+	I wish that there should be a proper educational institutes of every field which is bieng demand over all the country and a seperate institutes for paractical training of the material which is bieng taught by the teachers in the school.
+</p>
+
+  <h1>Audio</h1>
+<audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<h1>Video</h1>
+<video controls width="400">
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video element.
+</video>
+
+<h1>YouTube Frame</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+
+<h1>Map for Geolocation</h1>
+<iframe width="600" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.6789!2d-74.006!3d40.7128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDM4JzI2LjEiTiA3NMKwNTgnMTYuMCJX!5e0!3m2!1sen!2sus!4v1642888999999!5m2!1sen!2sus" allowfullscreen></iframe>
+</div>
+
+ 
+	
+	<div class="right-column">
+	<h3 >Project i have developed </h3>
+	<ul>
+		<li>Hotel Management system</li>
+		<li>Office Management System</li>
+		<li>Criminal Data Base record</li>
+		<li>Problem Solver</li>
+		<li>Making new friends</li>
+	</ul>
+	</div>
+</div>
+
+	
+
+	
+
+
+<footer>
+    <span>Usman Ali</span>
+    <br>
+    <a href="mailto:myselfusman59@gmail.com">myselfusman59@gmail.com</a>
+    <div class="icons">
+        <i class="fa-brands fa-facebook fa-bounce"></i>
+<i class="fa-brands fa-instagram fa-fade" style="color: #1f3b51;"></i>
+<i class="fa-brands fa-linkedin fa-beat-fade"></i>
+<i class="fa-brands fa-github fa-flip"></i>
+    </div>
+</footer>
+
+<a href="https://wa.me/923157879209" class="w-icon">
+     <i class="fa-brands fa-whatsapp fa-flip"></i>
+    
+</a>
+
+</body>
+</html>
